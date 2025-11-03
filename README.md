@@ -53,9 +53,9 @@ The **best model is saved** with `joblib` and deployed via **Streamlit** as an i
 | **12. Save Model with `joblib`** | `joblib.dump(best_dt, "loan_approval_best.pkl")` |
 | **13. Deployment using Streamlit** | <ul><li>Created `app.py` with interactive UI</li><li>Loaded `loan_approval_best.pkl`</li><li>Real-time prediction with CIBIL penalty</li><li>Deployed locally via `streamlit run app.py`</li><li>Ready for **Streamlit Cloud** (free public URL)</li></ul> |
 ------
-
 ## Project Structure
-.
+```plaintext
+
 ├── loan_approval_dataset.csv       # Raw dataset
 ├── loan_predictions.ipynb          # Full Jupyter Notebook (training + analysis)
 ├── app.py                          # Streamlit Web App
@@ -63,6 +63,4 @@ The **best model is saved** with `joblib` and deployed via **Streamlit** as an i
 ├── requirements.txt                # Python dependencies
 └── README.md                       # This file
 
-## Classification Report Summary
 
-### Logistic Regression (SMOTE + Tuned)
