@@ -1,4 +1,4 @@
-# 👥 Loan Approval Prediction – AI-Powered Decision Engine
+# 🏦  Loan Approval Prediction – AI-Powered Decision Engine
 
 **Predicts whether a loan application will be *Approved* or *Rejected* using real-world banking features.**
 
